@@ -21,7 +21,7 @@ class App < Sinatra::Base
   get '/say/:word1/:word2/:word3/:word4/:word5' do
     @words = params[:word1, :word2, :word3, :word4, :word5]
     @string = @words.join(" ")
-    @string.gsub("#{params[:word5]} ", "#{params[:word5]}.")!
+    @string.gsub("#{params[:word5]} ", "#{params[:word5]}.")
     "#{@string}"
   end 
   
