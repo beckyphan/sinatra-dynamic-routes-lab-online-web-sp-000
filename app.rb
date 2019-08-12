@@ -16,6 +16,7 @@ class App < Sinatra::Base
   get '/say/:number/:phrase' do
   end 
   
-  get 
+  get '/:operation/:number1/:number2' do
+  end 
 
 end
