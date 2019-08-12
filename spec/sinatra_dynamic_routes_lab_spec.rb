@@ -1,4 +1,4 @@
-require 'spec_helper'
+# require 'spec_helper'
 
 describe App do
   describe 'GET /reversename/:name' do
