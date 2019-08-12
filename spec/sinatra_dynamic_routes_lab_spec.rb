@@ -1,5 +1,3 @@
-# require 'spec_helper'
-
 describe App do
   describe 'GET /reversename/:name' do
     it 'sends a 200 status code' do
